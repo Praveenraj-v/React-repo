@@ -1,0 +1,21 @@
+.congratsCardClass{
+    background-image: url("./congrats-card-bg.png");
+    height: 100vh;
+}
+.cards{
+    background-color: aqua;
+    width: 50%;
+    margin-top: 15rem;
+}
+@media (max-width:715px) {
+    .cards{
+        margin-top: 15rem;
+        width: fit-content;
+    }
+}
+@media (max-width:368px) {
+    .cards{
+        margin-top: 17rem;
+        width: fit-content;
+    }
+}

@@ -1,0 +1,18 @@
+.card-tech{
+    height: 13rem;
+}
+.technologybg{
+    background-color:rgba(0, 255, 221, 0.265);
+}
+.Datashad{
+    box-shadow: 2px -10px 0px  #FF005C;
+}
+.Iotshad{
+    box-shadow: 2px -10px 0px  #68FF00;
+}
+.Vrshad{
+    box-shadow: 2px -10px 0px  #FAFF00;
+}
+.Mlshad{
+    box-shadow: 2px -10px 0px  #006FFF;
+}

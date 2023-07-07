@@ -1,0 +1,27 @@
+
+.LoginDesignClass{
+    width: 65%;
+    border: 1px solid black;
+    padding: 10px;
+}
+.LoginButton{
+    background-color: rgb(46, 221, 7);
+}
+.LoginButton:hover{
+    background-color: blueviolet;
+}
+.loginBg{
+    background-image:linear-gradient(to bottom right, purple, rgb(255, 1, 208));
+    height: 100vh;
+}
+.userlink, .createaccount{
+    text-decoration: none;
+    font-weight: 450;
+    color: rgb(46, 221, 7);
+}
+.userlink:hover, .createaccount:hover{
+    color: blueviolet;
+}
+.inputlogin:hover,inputlogin:active{
+    border-color: rgb(46, 221, 7);
+}

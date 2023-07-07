@@ -1,0 +1,14 @@
+.superOverLeagueClass{
+    background-color: black;
+    height: 100vh;
+}
+.cskimg,.rcbimg{
+    height: 55vh;
+    width: 30%;
+}
+@media (max-width:844px) {
+    .cskimg,.rcbimg{
+        height: 30vh;
+        width: 50vw;
+    }
+}
