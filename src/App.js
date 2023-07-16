@@ -12,6 +12,10 @@ import Notifications from './components/task5/Notifications';
 import LoginDesign from './components/task6/LoginDesign';
 import TechnologyCard from './components/task7/TechnologyCard';
 import HooksAssignment from './components/hooks1/HooksAssignment';
+import { FruitsCounter } from './components/fruitscounter/FruitsCounter';
+import { FeedBackApp } from './components/feedbackapp/FeedBackApp';
+import { Response } from './components/feedbackapp/Response';
+import { JsonAssignment } from './components/jsonAssignment/JsonAssignment';
 
 
 function App() {
@@ -27,6 +31,10 @@ function App() {
         <Route path='/LoginDesign' element={[<Menubar/>,<LoginDesign/>]}/>
         <Route path='/TechnologyCard' element={[<Menubar/>,<TechnologyCard/>]}/>
         <Route path='/HooksAssignment' element={[<Menubar/>,<HooksAssignment/>]}/>
+        <Route path='/FruitsCounter' element={[<Menubar/>,<FruitsCounter/>]}/>
+        <Route path='/Response' element={[<Menubar/>,<Response/>]}/>
+        <Route path='/FeedBackApp' element={[<Menubar/>,<FeedBackApp/>]}/>
+        <Route path='/JsonAssignment' element={[<Menubar/>,<JsonAssignment/>]}/>
       </Routes>
     </BrowserRouter>
     </>

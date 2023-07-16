@@ -1,0 +1,20 @@
+.returnImg{
+    height: 10%;
+    width: 10%;
+}
+.returnBtn{
+    background: none;
+    height: fit-content;
+    width: fit-content;
+}
+.emojiIcons{
+    height: 100%;
+    width: 100%;
+}
+.FeedBackAppClass{
+    box-shadow: 5px 5px 10px white;
+}
+.FeedBackAppBg{
+    background-image: linear-gradient(to right bottom, black,rgb(0, 0, 163),black) ;
+    height: 100vh;
+}

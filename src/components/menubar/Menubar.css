@@ -10,9 +10,13 @@
 }
 .menuBar li:hover{
     color: white;
+    background-color: black;
     border: 1px white solid;
 }
 .menuBar li:active {
     color: red;
     border: 1px red solid;
+}
+.menu-Bar:hover{
+    border: 1px white solid;
 }
